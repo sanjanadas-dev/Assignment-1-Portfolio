@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  color: #333;
+}
+
+header {
+  background: #d66b8c;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+header h1 {
+  margin-bottom: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd6e2;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  padding: 70px 25px;
+  min-height: 250px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 30px;
+}
+
+#home {
+  text-align: center;
+  padding-top: 100px;
+}
+
+#home h2 {
+  font-size: 40px;
+}
+
+#home p {
+  margin: 12px;
+  font-size: 18px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.skills span {
+  background: #d66b8c;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 20px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact p {
+  margin: 10px;
+}
+
+footer {
+  background: #d66b8c;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+@media (max-width: 600px) {
+  nav {
+    gap: 12px;
+  }
+
+  section {
+    padding: 50px 15px;
+  }
+
+  #home h2 {
+    font-size: 30px;
+  }
+}
+
+.profile-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 50%;
+}
